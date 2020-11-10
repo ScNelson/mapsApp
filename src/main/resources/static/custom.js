@@ -1,7 +1,7 @@
 var map;
 var marker;
-var coords = { lat: 39.9612, lng: -82.9988 };
-var contentString = '<h2>Columbus, OH</h2> <p>Where your dreams come true.</p>';
+//var coords = { lat: 39.9612, lng: -82.9988 };
+var contentString = '<h2>' + city + ', ' + state + '</h2>';
 
 function initMap() {
     var infowindow = new google.maps.InfoWindow({
